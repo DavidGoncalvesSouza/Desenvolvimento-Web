@@ -11458,3 +11458,40 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+#motorista .container-fluid, #motorista .container-sm, #motorista .container-md, #motorista .container-lg, #motorista .container-xl, #motorista .container-xxl {
+  max-width: 1920px;
+}
+#motorista .container-fluid .motorista-box, #motorista .container-sm .motorista-box, #motorista .container-md .motorista-box, #motorista .container-lg .motorista-box, #motorista .container-xl .motorista-box, #motorista .container-xxl .motorista-box {
+  position: relative;
+  display: block;
+}
+#motorista .container-fluid .motorista-box .motorista-box-caption, #motorista .container-sm .motorista-box .motorista-box-caption, #motorista .container-md .motorista-box .motorista-box-caption, #motorista .container-lg .motorista-box .motorista-box-caption, #motorista .container-xl .motorista-box .motorista-box-caption, #motorista .container-xxl .motorista-box .motorista-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  /*background: rgba(244, 98, 58, 0.9);*/
+  background: rgba(255, 255, 255, 0);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#motorista .container-fluid .motorista-box .motorista-box-caption .project-category, #motorista .container-sm .motorista-box .motorista-box-caption .project-category, #motorista .container-md .motorista-box .motorista-box-caption .project-category, #motorista .container-lg .motorista-box .motorista-box-caption .project-category, #motorista .container-xl .motorista-box .motorista-box-caption .project-category, #motorista .container-xxl .motorista-box .motorista-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#motorista .container-fluid .motorista-box .motorista-box-caption .project-name, #motorista .container-sm .motorista-box .motorista-box-caption .project-name, #motorista .container-md .motorista-box .motorista-box-caption .project-name, #motorista .container-lg .motorista-box .motorista-box-caption .project-name, #motorista .container-xl .motorista-box .motorista-box-caption .project-name, #motorista .container-xxl .motorista-box .motorista-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#motorista .container-fluid .motorista-box:hover .motorista-box-caption, #motorista .container-sm .motorista-box:hover .motorista-box-caption, #motorista .container-md .motorista-box:hover .motorista-box-caption, #motorista .container-lg .motorista-box:hover .motorista-box-caption, #motorista .container-xl .motorista-box:hover .motorista-box-caption, #motorista .container-xxl .motorista-box:hover .motorista-box-caption {
+  opacity: 1;
+}
