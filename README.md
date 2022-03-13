@@ -1,2 +1,0 @@
-# vinas
-site da empresa
